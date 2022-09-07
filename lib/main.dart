@@ -111,10 +111,9 @@ Widget entrar() {
 Widget entrar2() {
   return TextButton(
     style: TextButton.styleFrom(
-      padding: EdgeInsets.all(16.0),
-      textStyle: TextStyle(fontSize: 20),
-      backgroundColor: Colors.deepOrange,
-    ),
+        padding: EdgeInsets.all(16.0),
+        textStyle: TextStyle(fontSize: 20),
+        backgroundColor: Colors.amber),
     onPressed: () {},
     child: Text(
       "Entrar",
